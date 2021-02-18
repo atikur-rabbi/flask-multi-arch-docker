@@ -1,20 +1,20 @@
-image: ckulka/multi-arch-example:latest
+image: we2app/flask-demo:latest
 manifests:
-  - image: ckulka/multi-arch-example:amd64
+  - image: we2app/flask-demo:amd64
     platform:
       architecture: amd64
       os: linux
-  - image: ckulka/multi-arch-example:arm32v5
+  - image: we2app/flask-demo:arm32v5
     platform:
       architecture: arm
       os: linux
       variant: v5
-  - image: ckulka/multi-arch-example:arm32v7
+  - image: we2app/flask-demo:arm32v7
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: ckulka/multi-arch-example:arm64v8
+  - image: we2app/flask-demo:arm64v8
     platform:
       architecture: arm64
       os: linux
